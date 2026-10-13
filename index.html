@@ -609,7 +609,7 @@
 
     <!-- Four pillars -->
     <section>
-      <p class="section-title">五大板塊</p>
+      <p class="section-title">六大板塊</p>
       <div class="bento">
 
         <a class="card-link" href="#" onclick="switchTab('study', document.querySelector('.nav-btn[data-tab=study]'));return false;">
@@ -666,6 +666,20 @@
               <div class="progress-fill" style="width:70%;"></div>
             </div>
             <div class="progress-num" style="margin-top:6px;">打字 · 餐廳 · 新聞 · 課程</div>
+          </div>
+        </a>
+
+        <a class="card-link" href="#" onclick="switchTab('growth', document.querySelector('.nav-btn[data-tab=growth]'));return false;">
+          <div class="card">
+            <div class="card-label">成長</div>
+            <div class="card-value-sm serif">課程＋創作＋瑜伽</div>
+            <div style="margin-top:10px;">
+              <span class="tag tag-yellow">作業待提交</span>
+            </div>
+            <div class="progress-track" style="margin-top:12px; margin-bottom:0;">
+              <div class="progress-fill" style="width:10%;"></div>
+            </div>
+            <div class="progress-num" style="margin-top:6px;">課程第1課 · 創作等靈感</div>
           </div>
         </a>
 
@@ -1854,7 +1868,72 @@
 </div>
 
 <!-- ============ TAB: 安排 ============ -->
-<div class="tab-view" id="tab-life">
+<div class="tab-view" id="tab-growth">
+      <div class="container">
+
+        <section>
+          <p class="section-title">Agent 課程</p>
+          <div class="card card-full" style="margin-bottom:12px;">
+            <div class="progress-row" style="margin-bottom:6px;">
+              <span class="card-value-sm serif">🤖 產品導師課程 v2.1</span>
+              <span class="tag tag-yellow">作業待提交</span>
+            </div>
+            <div class="card-unit" style="margin-top:0;">十大階段制 · 第 1 課（2026-09-04 派發）</div>
+            <div style="margin-top:14px;">
+              <div class="asset-row"><span class="asset-name">當前課堂：LLM 基礎名詞＋五層方案階梯</span><span class="tag tag-blue">已派</span></div>
+              <div class="asset-row"><span class="asset-name">作業：6 個產品方案配對＋市場直覺</span><span class="tag tag-yellow">待提交</span></div>
+              <div class="asset-row"><span class="asset-name">自動課堂：一至五 08:00</span><span class="tag tag-green">運行中</span></div>
+              <div class="asset-row"><span class="asset-name">過關標準：連續 2 次四維度無方向性錯誤</span><span class="tag tag-blue">制度</span></div>
+            </div>
+            <a class="link-item" href="https://zoematszting-bit.github.io/agent-course/" target="_blank" style="margin-top:8px; border-top:1px solid var(--border); padding-top:14px;">
+              <span class="link-text">課程網站 →</span>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <p class="section-title">創作系統</p>
+          <div class="card card-full" style="margin-bottom:12px;">
+            <div class="progress-row" style="margin-bottom:6px;">
+              <span class="card-value-sm serif">✍️ 小說短劇雙軌</span>
+              <span class="tag tag-yellow">等第一個真靈感</span>
+            </div>
+            <div class="card-unit" style="margin-top:0;">七 prompt 引擎 · 工作台 · 市場情報（2026-09-12 建成）</div>
+            <div style="margin-top:14px;">
+              <div class="asset-row"><span class="asset-name">示範項目《重生後我拒絕豪門劇本》42/50</span><span class="tag tag-green">過爆款線</span></div>
+              <div class="asset-row"><span class="asset-name">市場快照 10/11 已更新（下次 10/25）</span><span class="tag tag-green">新鮮</span></div>
+              <div class="asset-row"><span class="asset-name">週日 09:00 自動維護</span><span class="tag tag-green">運行中</span></div>
+              <div class="asset-row"><span class="asset-name">講「記靈感：xxx」即刻入庫</span><span class="tag tag-blue">玩法</span></div>
+            </div>
+            <a class="link-item" href="http://localhost:8766" target="_blank" style="margin-top:8px; border-top:1px solid var(--border); padding-top:14px;">
+              <span class="link-text">工作台（Mac） →</span>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <p class="section-title">YT200 瑜伽教材</p>
+          <div class="card card-full">
+            <div class="progress-row" style="margin-bottom:6px;">
+              <span class="card-value-sm serif">🧘 YT200 導師認證線</span>
+              <span class="tag tag-blue">等考完公務員推出</span>
+            </div>
+            <div class="card-unit" style="margin-top:0;">六模組全套 103 頁 · 品牌 GROUND &amp; SHINE</div>
+            <div style="margin-top:14px;">
+              <div class="asset-row"><span class="asset-name">模組一 FINAL v1.0（唯一設計基準）</span><span class="tag tag-green">定版</span></div>
+              <div class="asset-row"><span class="asset-name">C4 幸運五行莫蘭迪色板</span><span class="tag tag-green">定版</span></div>
+              <div class="asset-row"><span class="asset-name">Logo v8.1 Rooted Bloom</span><span class="tag tag-yellow">待確認</span></div>
+              <div class="asset-row"><span class="asset-name">2027 Q2 啟動報考</span><span class="tag tag-blue">時間表</span></div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <div class="tab-view" id="tab-life">
   <div class="container">
 
     <section>
@@ -1961,7 +2040,7 @@
 <!-- ============ FOOTER ============ -->
 <footer>
   一步一腳印，每日進步少少<br>
-  <span style="font-size:10px; opacity:0.5;">v4.1 · 2026.10.12 每日同步</span>
+  <span style="font-size:10px; opacity:0.5;">v4.2 · 2026.10.12 新增成長tab（課程/創作/YT200）</span>
 </footer>
 
 <!-- ============ BOTTOM NAV ============ -->
@@ -1971,7 +2050,8 @@
   <button class="nav-btn" data-tab="fitness" onclick="switchTab('fitness', this)">健身</button>
   <button class="nav-btn" data-tab="web" onclick="switchTab('web', this)">網站</button>
   <button class="nav-btn" data-tab="finance" onclick="switchTab('finance', this)">財庫</button>
-  <button class="nav-btn" data-tab="life" onclick="switchTab('life', this)">安排</button>
+  <button class="nav-btn" data-tab="growth" onclick="switchTab('growth', this)">成長</button>
+        <button class="nav-btn" data-tab="life" onclick="switchTab('life', this)">安排</button>
 </nav>
 
 <script>
